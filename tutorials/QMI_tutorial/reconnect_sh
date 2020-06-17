@@ -8,7 +8,7 @@ while true; do
 		echo "Connection up, reconnect not required..."
 	else
 		echo "Connection down, reconnecting..."
-		sudo ./quectel-CM -s #APN
+		sudo ./quectel-CM -s #APN #USER #PASS
 	fi
 
 	sleep 1
